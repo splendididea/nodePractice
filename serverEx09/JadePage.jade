@@ -1,0 +1,30 @@
+doctype html
+html
+    head
+        title   Index Page
+        style.
+            * {margin:0px; padding:0px;}
+            h1{
+                color:Red;
+            }
+            script(src="https://code.jquery.com/jquery-1.12.4.js")
+            script.
+            $(document).ready(function(){
+                var alpha = 10;
+            });
+    body
+        // Jade String
+        // # 아이디만 입력해주면 해당 아이디를 가진 DIV를 생성한다. 
+
+        
+        #header
+            h1 Hello jade ...!  #{name}
+            h2 Lorem ipsum      #{description}
+        hr 
+        .article
+        - for(var i=0;i<10;i++){
+            p
+                a(href="http://naver.com") Go to Naver!!  #{i}
+        - }
+        // 마찬가지로 . 클래스명만 입력해주면 해당 클래스를 가진 DIV를 생성한다.
+            
