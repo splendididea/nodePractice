@@ -8,6 +8,10 @@ router.get('/index', function(request, response){
     response.send('<h1>Index Page</h1>');
 });
 
+router.get('/main' , function(request, response){
+    response.send('<h1>Main Page</h1>')
+})
+
 // 외부로 뺍니다. 
 exports.router = router;
 

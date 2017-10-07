@@ -13,12 +13,13 @@ const cookieParser = require('cookie-parser');
 var app = express();
 
 // 미들웨어 설정
-app.use(cookieParser);
+app.use(cookieParser());
 app.use(bodyParser.urlencoded({extended : false}));
 // app.use(morgan('dev'));
 
 // 라우터를 설정
 app.get('/' , function (request, response) {
+    console.log(' root ininin');
     if(request.cookies.auth){
         response.send('<h1>Login Success!</h1>')
     } else {
