@@ -24,6 +24,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
+var router = express.Router();
 
 // 사용자 정의 모듈 추출
 var index = require('./routes/index');
@@ -55,6 +56,13 @@ app.use(session({
 // 라우터 미들웨어를 설정 
 app.use('/', index);
 app.use('/users', users);
+
+/* GET home page */
+router.get('/',function(req, res, next){
+  res.render('index', {title : 'Express'});
+});
+
+module.exports = router;
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
