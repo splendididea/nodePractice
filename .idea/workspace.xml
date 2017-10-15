@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f282fad7-c880-4530-a7f7-b7f62eaecc7a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express.mysql/mysql.express.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express.mysql/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysqlEx01/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysqlEx01/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysqlEx01/insert.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysqlEx01/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysqlEx01/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/socketioEx03/HTMLPage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/socketioEx03/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,93 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mysql.express.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express.mysql/mysql.express.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysqlEx01/app.js">
+        <entry file="file://$PROJECT_DIR$/socketioEx03/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="233">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console_1.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5a6a225f-74be-4bfb-b5b9-dd19f7504dd4/console_1.sql">
+      <file leaf-file-name="HTMLPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socketioEx03/HTMLPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serverEx01/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlEx01/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlEx01/edit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insert.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlEx01/insert.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlEx01/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-              <folding>
-                <marker date="1507562313000" expanded="true" signature="429:748" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express.mysql/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -129,9 +52,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package_json" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="package_json" />
       </list>
     </option>
   </component>
@@ -170,6 +93,8 @@
         <option value="$PROJECT_DIR$/mysqlEx01/list.html" />
         <option value="$PROJECT_DIR$/mysqlEx01/list.ejs" />
         <option value="$PROJECT_DIR$/mysqlEx01/app.js" />
+        <option value="$PROJECT_DIR$/socketioEx03/HTMLPage.html" />
+        <option value="$PROJECT_DIR$/socketioEx03/app.js" />
       </list>
     </option>
   </component>
@@ -181,25 +106,19 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/RESTfulEx01/node_modules" />
-    <handled-path value="$PROJECT_DIR$/connectMultiparty/node_modules" />
-    <handled-path value="$PROJECT_DIR$/express.mysql/node_modules" />
-    <handled-path value="$PROJECT_DIR$/expressBodyParser/node_modules" />
     <handled-path value="$PROJECT_DIR$/expressCookieParserEx01/node_modules" />
-    <handled-path value="$PROJECT_DIR$/expressEx01/node_modules" />
     <handled-path value="$PROJECT_DIR$/expressEx05/node_modules" />
-    <handled-path value="$PROJECT_DIR$/expressMorganEx01/node_modules" />
     <handled-path value="$PROJECT_DIR$/expressSession/node_modules" />
-    <handled-path value="$PROJECT_DIR$/expressStaticEx01/node_modules" />
     <handled-path value="$PROJECT_DIR$/mongoEx01/node_modules" />
-    <handled-path value="$PROJECT_DIR$/mysqlEx01/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/serverEx08/node_modules" />
     <handled-path value="$PROJECT_DIR$/serverEx09/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-2560" />
-    <option name="y" value="24" />
-    <option name="width" value="1636" />
-    <option name="height" value="1017" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-59" />
+    <option name="y" value="70" />
+    <option name="width" value="1564" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -216,6 +135,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,11 +149,6 @@
               <item name="node_workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="node_workspace" type="462c0819:PsiDirectoryNode" />
               <item name="express.mysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="node_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node_workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="expressEx03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="node_workspace" type="b2602c69:ProjectViewProjectNode" />
@@ -253,14 +170,16 @@
               <item name="node_workspace" type="462c0819:PsiDirectoryNode" />
               <item name="serverEx04" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="node_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="socketioEx03" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.app.js">
+  <component name="RunManager" selected="Node.js.app.js (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -369,27 +288,27 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="app.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/socketioEx03" />
     <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/mysqlEx01" />
-    <configuration name="express.bodyparser.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="express.bodyparser.js" working-dir="$PROJECT_DIR$/expressBodyParser" />
     <configuration name="express.cookie.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="express.cookie.js" working-dir="$PROJECT_DIR$/expressCookieParserEx01" />
-    <configuration name="express.morgan2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="express.morgan2.js" working-dir="$PROJECT_DIR$/expressMorganEx01" />
     <configuration name="express.restfull.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="express.restfull.js" working-dir="$PROJECT_DIR$/RESTfulEx01" />
     <configuration name="mysql.express.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="mysql.express.js" working-dir="$PROJECT_DIR$/express.mysql" />
+    <configuration name="socket.room.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="socket.room.js" working-dir="$PROJECT_DIR$/socketioEx02" />
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Node.js.express.cookie.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.express.morgan2.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.express.bodyparser.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.express.restfull.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.mysql.express.js" />
-      <item index="5" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.express.restfull.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.mysql.express.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.socket.room.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.app.js (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.mysql.express.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.express.restfull.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.express.bodyparser.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.express.morgan2.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.socket.room.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.mysql.express.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.express.restfull.js" />
       </list>
     </recent_temporary>
   </component>
@@ -414,14 +333,15 @@
       <workItem from="1507540506381" duration="899000" />
       <workItem from="1507558684686" duration="2556000" />
       <workItem from="1507562170181" duration="438000" />
+      <workItem from="1507821659672" duration="2355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15040000" />
+    <option name="totallyTimeSpent" value="17395000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="24" width="1636" height="1017" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -436,13 +356,13 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15403423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10574572" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12013889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45396826" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47791165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -463,87 +383,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/expressStaticEx01/express.static.js</url>
-          <line>7</line>
+          <url>file://$PROJECT_DIR$/socketioEx02/socket.room.js</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/RESTfulEx01/express.restfull.js</url>
-          <line>39</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/socketioEx02/socket.room.js</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/RESTfulEx01/express.restfull.js</url>
-          <line>79</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/RESTfulEx01/express.restfull.js</url>
-          <line>23</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/RESTfulEx01/express.restfull.js</url>
-          <line>46</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/express.mysql/mysql.express.js</url>
-          <line>3</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/mysqlEx01/app.js</url>
-          <line>29</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/mysqlEx01/app.js</url>
-          <line>53</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/mysqlEx01/app.js</url>
-          <line>54</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/mysqlEx01/app.js</url>
-          <line>62</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/mysqlEx01/app.js</url>
-          <line>70</line>
-          <option name="timeStamp" value="21" />
+          <url>file://$PROJECT_DIR$/socketioEx03/app.js</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/expressBodyParser/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expressBodyParser/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RESTfulEx01/express.restfull.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="104" column="25" lean-forward="true" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/expressCookieParserEx01/express.cookie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -858,14 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5a6a225f-74be-4bfb-b5b9-dd19f7504dd4/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/express.mysql/mysql.express.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -878,16 +732,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <marker date="1507562313000" expanded="true" signature="429:748" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysqlEx01/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5a6a225f-74be-4bfb-b5b9-dd19f7504dd4/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socketioEx02/socket.room.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socketioEx03/HTMLPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socketioEx03/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding />
         </state>
       </provider>

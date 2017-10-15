@@ -2,9 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Web Chat</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        $(document).ready(function(){
+            // 변수 선언
+            var socket = io.connect();
+            // 이벤트 연결
+            socket.on('message' , function(data){
+                // 추가할 문자열을 만든다.
+                var output = '';
+                output += '<li>';
+                output += '     <h3>' + data.name + '</h3>';
+                output += '     <p>' + data.message + '</p>';
+                output += '     <p>' + data.date + '</p>';
+                output += '</li>';
+
+                //문서 객체 추가
+                $(output).prependTo('#content');
+            });
+
+            $('#btn').click(function () {
+                socket.emit('message', {
+                    name : $('#name').val(),
+                    message : $('#message').val(),
+                    date : new Date().toUTCString()
+                });
+            })
+        });
+    </script>
 </head>
 <body>
-$END$
+    <h1>Socket.io Chat</h1>
+    <p>Chat With Node.js</p>
+    <hr>
+    <input id="name" />
+    <input id="message" />
+    <button id="btn">Button</button>
+    <ul id="content"></ul>
 </body>
 </html>
