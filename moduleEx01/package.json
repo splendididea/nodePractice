@@ -1,16 +1,15 @@
 {
-  "name": "mongoex02",
+  "name": "moduleex01",
   "version": "1.0.0",
-  "description": "mongo practice",
-  "main": "index.js",
+  "description": "module practice",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "body-parser": "^1.18.2",
-    "cookie-parse": "^0.4.0",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
     "express-error-handler": "^1.1.0",
@@ -19,5 +18,8 @@
     "jade": "^1.11.0",
     "mongodb": "^3.0.3",
     "path": "^0.12.7"
+  },
+  "dependencies": {
+    "mongoose": "^5.0.7"
   }
 }
